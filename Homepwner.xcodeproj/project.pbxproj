@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		CD5126411E5D42720047D1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5126401E5D42720047D1A3 /* AppDelegate.swift */; };
-		CD5126431E5D42720047D1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5126421E5D42720047D1A3 /* ViewController.swift */; };
 		CD5126461E5D42720047D1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5126441E5D42720047D1A3 /* Main.storyboard */; };
 		CD5126491E5D42720047D1A3 /* Homepwner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD5126471E5D42720047D1A3 /* Homepwner.xcdatamodeld */; };
 		CD51264B1E5D42720047D1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD51264A1E5D42720047D1A3 /* Assets.xcassets */; };
 		CD51264E1E5D42720047D1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD51264C1E5D42720047D1A3 /* LaunchScreen.storyboard */; };
+		CD5126561E5E157E0047D1A3 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5126551E5E157D0047D1A3 /* ItemsViewController.swift */; };
+		CD5126581E5E16A30047D1A3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5126571E5E16A30047D1A3 /* Item.swift */; };
+		CD51265A1E5E1D190047D1A3 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5126591E5E1D190047D1A3 /* ItemStore.swift */; };
+		CD51265C1E5E571D0047D1A3 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51265B1E5E571D0047D1A3 /* ItemCell.swift */; };
+		CD51265E1E5F531A0047D1A3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51265D1E5F531A0047D1A3 /* DetailViewController.swift */; };
+		CD5126601E5F76880047D1A3 /* ItemTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51265F1E5F76880047D1A3 /* ItemTextField.swift */; };
+		CDD7B0FA1E5F7E0E00E380A4 /* DateChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD7B0F91E5F7E0E00E380A4 /* DateChangeViewController.swift */; };
+		CDD7B0FC1E5F954300E380A4 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD7B0FB1E5F954300E380A4 /* ImageStore.swift */; };
+		CDD7B0FF1E60B5A300E380A4 /* CustomOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD7B0FD1E60B5A300E380A4 /* CustomOverlayViewController.swift */; };
+		CDD7B1001E60B5A300E380A4 /* CustomOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD7B0FE1E60B5A300E380A4 /* CustomOverlayViewController.xib */; };
+		CDD7B1021E60B5E000E380A4 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD7B1011E60B5E000E380A4 /* CustomOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD51263D1E5D42720047D1A3 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5126401E5D42720047D1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD5126421E5D42720047D1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD5126451E5D42720047D1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD5126481E5D42720047D1A3 /* Homepwner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Homepwner.xcdatamodel; sourceTree = "<group>"; };
 		CD51264A1E5D42720047D1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD51264D1E5D42720047D1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD51264F1E5D42720047D1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5126551E5E157D0047D1A3 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		CD5126571E5E16A30047D1A3 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = ../Item.swift; sourceTree = "<group>"; };
+		CD5126591E5E1D190047D1A3 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemStore.swift; path = ../ItemStore.swift; sourceTree = "<group>"; };
+		CD51265B1E5E571D0047D1A3 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		CD51265D1E5F531A0047D1A3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CD51265F1E5F76880047D1A3 /* ItemTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTextField.swift; sourceTree = "<group>"; };
+		CDD7B0F91E5F7E0E00E380A4 /* DateChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateChangeViewController.swift; sourceTree = "<group>"; };
+		CDD7B0FB1E5F954300E380A4 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		CDD7B0FD1E60B5A300E380A4 /* CustomOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayViewController.swift; sourceTree = "<group>"; };
+		CDD7B0FE1E60B5A300E380A4 /* CustomOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayViewController.xib; sourceTree = "<group>"; };
+		CDD7B1011E60B5E000E380A4 /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +76,18 @@
 		CD51263F1E5D42720047D1A3 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				CD5126591E5E1D190047D1A3 /* ItemStore.swift */,
+				CD5126571E5E16A30047D1A3 /* Item.swift */,
 				CD5126401E5D42720047D1A3 /* AppDelegate.swift */,
-				CD5126421E5D42720047D1A3 /* ViewController.swift */,
+				CD5126551E5E157D0047D1A3 /* ItemsViewController.swift */,
+				CD51265B1E5E571D0047D1A3 /* ItemCell.swift */,
+				CD51265F1E5F76880047D1A3 /* ItemTextField.swift */,
+				CD51265D1E5F531A0047D1A3 /* DetailViewController.swift */,
+				CDD7B0FD1E60B5A300E380A4 /* CustomOverlayViewController.swift */,
+				CDD7B0FE1E60B5A300E380A4 /* CustomOverlayViewController.xib */,
+				CDD7B1011E60B5E000E380A4 /* CustomOverlayView.swift */,
+				CDD7B0FB1E5F954300E380A4 /* ImageStore.swift */,
+				CDD7B0F91E5F7E0E00E380A4 /* DateChangeViewController.swift */,
 				CD5126441E5D42720047D1A3 /* Main.storyboard */,
 				CD51264A1E5D42720047D1A3 /* Assets.xcassets */,
 				CD51264C1E5D42720047D1A3 /* LaunchScreen.storyboard */,
@@ -99,6 +129,7 @@
 				TargetAttributes = {
 					CD51263C1E5D42710047D1A3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD7B1001E60B5A300E380A4 /* CustomOverlayViewController.xib in Resources */,
 				CD51264E1E5D42720047D1A3 /* LaunchScreen.storyboard in Resources */,
 				CD51264B1E5D42720047D1A3 /* Assets.xcassets in Resources */,
 				CD5126461E5D42720047D1A3 /* Main.storyboard in Resources */,
@@ -139,9 +171,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD5126431E5D42720047D1A3 /* ViewController.swift in Sources */,
+				CDD7B0FA1E5F7E0E00E380A4 /* DateChangeViewController.swift in Sources */,
+				CD5126581E5E16A30047D1A3 /* Item.swift in Sources */,
+				CDD7B1021E60B5E000E380A4 /* CustomOverlayView.swift in Sources */,
+				CD5126561E5E157E0047D1A3 /* ItemsViewController.swift in Sources */,
+				CDD7B0FF1E60B5A300E380A4 /* CustomOverlayViewController.swift in Sources */,
+				CDD7B0FC1E5F954300E380A4 /* ImageStore.swift in Sources */,
+				CD51265C1E5E571D0047D1A3 /* ItemCell.swift in Sources */,
 				CD5126491E5D42720047D1A3 /* Homepwner.xcdatamodeld in Sources */,
+				CD51265A1E5E1D190047D1A3 /* ItemStore.swift in Sources */,
 				CD5126411E5D42720047D1A3 /* AppDelegate.swift in Sources */,
+				CD5126601E5F76880047D1A3 /* ItemTextField.swift in Sources */,
+				CD51265E1E5F531A0047D1A3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +344,7 @@
 				CD5126541E5D42720047D1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
